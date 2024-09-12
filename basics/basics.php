@@ -47,6 +47,15 @@ require("Header.php")
 Hero section
 </div>
 
+<!-- For Loop -->
+ <p>Printing Count from 1 to 10 using loop</p>
+ <?php 
+ 
+ for($i=0;$i<=10;$i++){
+    echo $i."<br/>";
+ }
+
+ ?>
 <!-- Footer -->
  <?php
  include("Footer.php")
