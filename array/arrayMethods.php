@@ -32,5 +32,21 @@ $sorted_array = rsort($numbers);
 
 echo "Printing sorted array of numbers : " ,print_r($numbers);
 
+// Printing array using For Loop
+
+echo "<br/><br/>";
+echo "Printing cars using for loop<br/>"; 
+for($i=0;$i<count($cars);$i++){
+    echo $cars[$i]."<br/>";
+}
+
+// Printing array using For each loop
+
+echo "<br/><br/>";
+echo "Printing cars using For each loop<br/>"; 
+foreach($cars as $value){
+    echo $value."<br/>";
+}
+
 
 ?>
